@@ -1,4 +1,4 @@
-import { useState, useCallback, useEffect, useRef} from 'react'
+import { useCallback, useRef, useState, useEffect } from "react"
 
 function App() {
   const [length, setLength] = useState(8)
@@ -100,4 +100,4 @@ function App() {
   )
 }
 
-export default App
+export default App;

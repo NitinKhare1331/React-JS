@@ -1,9 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
-import State from './assets/AllHooks/State.jsx'
+// import State from './assets/Hooks/State.jsx'
+// import Memo from './Hooks/Memo.jsx'
+import Parent from './Hooks/UseCallback/Parent'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <State />
+  <>
+  <Parent />
+  </>
 )
